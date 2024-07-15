@@ -1,7 +1,7 @@
 
 # Formato para tus dashboard en Apache Superset
 
-Podrás encontrar algunos .css super útiles para dar formato a tus dashboard en apache superset
+¡Personaliza tus dashboards de Apache Superset con estos increíbles CSS! en el .css podrás encontrar algunos estilos super útiles para dar formato a tus dashboard, solo es cuestión de copiar y pegar el que mejor te funcione
 
 
 ## Authors
