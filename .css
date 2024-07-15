@@ -1,0 +1,74 @@
+/*eliminar titulos de los graficos del dashboar*/
+.header-title > .editable-title {
+  display:none;
+}
+
+
+/*tamaño de letra tabla dinamica*/
+td.pvtVal, pvtRowLabel {font-size: 13px !important }
+
+.css-7tmzyl table.pvtTable thead tr th, .css-7tmzyl table.pvtTable tbody tr th {
+    font-size: 13px;
+}
+
+/*tamaño de letra tabla normal*/
+table.table.table-striped.table-condensed,
+table.table.table-striped.table-condensed td {
+  font-size: 14px !important;
+}
+
+/*tamaño de letra grafico de barra*/
+text.bar-chart-label,
+g.tick text {
+    font-size: 20px !important;
+}
+
+/*borrar linea en grafico*/
+line {
+    display: none;
+}
+
+/*titulos*/ 
+.header-title {
+  font-size:18px !important;
+}
+
+/*centrar elementos de la tabla*/
+
+td.pvtVal, td.dt-is-filter {
+text-align: center !important;
+}
+
+/*aliniar a la izquierda la primera columna de la tabla*/
+td.dt-is-filter:first-child {
+    text-align: left !important;
+}
+
+/*color en cuadro big_number*/
+
+div[data-test-viz-type=big_number_total] {
+  background: linear-gradient(#eee, #fff);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+
+/*tipo de letra de todo*/ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  /* changing the font as globally as possible */
+  #main-menu + div *{
+      font-family: 'Roboto', sans-serif !important;
+  }
+  
+   
+/*colores dentro del dashboard, arriba */
+  
+   .header-with-actions {
+    background-color: #2e3191 ;
+    color: white;
+  }
+ 
+
+
